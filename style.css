@@ -145,7 +145,7 @@ html,body{
 }
 
 .quote{
-    padding-left: 250px;
+    padding-left: 450px;
     color: #1F2B37;
     
 }
@@ -154,7 +154,7 @@ html,body{
 
 
 .middle3{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .middle3box{
@@ -180,4 +180,12 @@ html,body{
     margin: 80px;
     width: 65px;
     height: 30px;
+}
+
+/*----------------------------------------------------------*/
+
+.footer{
+    /*border: 1px solid red;*/
+    background-color: #1F2B37;
+    padding: 20px 30px 30px 360px;
 }
