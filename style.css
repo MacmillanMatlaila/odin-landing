@@ -1,41 +1,54 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
 *{
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+    
+
 
 }
 
 .top-section{
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     color:white;
     background-color: #1F2B37;
-    margin: 0;
-}    
+    padding: 1px 40px;
+    
 
     
-    .header{
+}    
+
+.header{
     /*border: 2px solid yellow;*/
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 40px;
+
 }
 
 .logo{
-   font-size: 18px;
+   font-size: 15px;
    /*border: 2px solid white;*/
-   padding-right: 290px;
+   
 }
 
 .header-links{
     /*border: 5px solid orange;*/
+    display: flex;
     text-decoration: none;
+    margin: 1px;
 }
 
 .top-section-boxes{
     display: flex;
     justify-content: space-around;
     /*border: 2px solid purple;*/
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 60px;
 }
 
@@ -54,4 +67,60 @@
 
 .button{
     background-color: blue;
+    border-radius: 6px;
 }
+
+/*----------------------------------------------------------------*/
+
+.middle1{
+    display: block;
+    /*border: 2px solid red;*/
+    background-color: blueviolet;
+    margin: 40px 115px;
+}
+
+.middlepara{
+    /*border: 2px solid blue;*/
+    display: flex;
+    justify-content:center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+    /*border: 2px solid yellow;*/
+}
+
+.sectionbox1 .sectionbox2 .sectionbox3 .sectionbox4{
+    display: flex;
+}
+
+.sectionbox1{
+    /*border: 1px solid black;*/
+}
+
+.sectionbox2{
+    /*border: 1px solid black;*/
+}
+
+.sectionbox3{
+    /*border: 1px solid black;*/
+}
+
+.sectionbox4{
+    /*border: 1px solid black;*/
+}
+
+.bluebox{
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 5px;
+    
+}
+
+.sectionboxpara{
+    margin: 1px 30px;
+    
