@@ -15,7 +15,7 @@ html,body{
 .top-section{
     /*border: 2px solid red;*/
     color:white;
-    background-color: #1F2B37;
+    background-color: #1F2937;
     padding: 1px 40px;
     
 
@@ -27,12 +27,17 @@ html,body{
 
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 0px;
+    padding: 0px 40px;
+    color: #F9FAF8;
 
 }
 
 .logo{
-   font-size: 15px;
+    margin: 0;
+    padding-bottom: 50px;
+   font-size: 24px;
+   color:#F9FAF8;
    /*border: 2px solid white;*/
    
 }
@@ -42,6 +47,8 @@ html,body{
     display: flex;
     text-decoration: none;
     margin: 1px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .top-section-boxes{
@@ -66,7 +73,7 @@ html,body{
 }
 
 .button{
-    background-color: blue;
+    background-color: #3882F6;
     border-radius: 6px;
 }
 
@@ -84,7 +91,9 @@ html,body{
     /*border: 2px solid blue;*/
     display: flex;
     justify-content:center;
-    color: #1F2B37;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .boxes{
@@ -134,14 +143,16 @@ html,body{
 .middle2{
     /*border: 1px solid red;*/
     display: block;
-    background-color: lightgray;
+    background-color: #E5E7EB;
     margin: 0px;
     padding: 80px 150px;
 
 }
 
 .paragraph{
-    color: black;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
 }
 
 .quote{
