@@ -75,14 +75,16 @@ html,body{
 .middle1{
     display: block;
     /*border: 2px solid red;*/
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     margin: 40px 115px;
+    padding-bottom: 30px;
 }
 
 .middlepara{
     /*border: 2px solid blue;*/
     display: flex;
     justify-content:center;
+    color: #1F2B37;
 }
 
 .boxes{
@@ -123,4 +125,27 @@ html,body{
 
 .sectionboxpara{
     margin: 1px 30px;
+    color: #1F2B37;
     
+}
+
+/*---------------------------------------------*/
+
+.middle2{
+    /*border: 1px solid red;*/
+    display: block;
+    background-color: lightgray;
+    margin: 0px;
+    padding: 80px 150px;
+
+}
+
+.paragraph{
+    color: black;
+}
+
+.quote{
+    padding-left: 500px;
+    color: #1F2B37;
+    
+}
